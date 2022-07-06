@@ -1,6 +1,6 @@
 # RHEL 7 to CentOS 7 migration tool
 
-# Forked from https://github.com/cloudlinux/rhel2centos, with patches added to accomodate updates from Katello Satelite
+**Forked from https://github.com/cloudlinux/rhel2centos, with patches added to accomodate updates from Katello Satelite**
 
 ## Usage
 
