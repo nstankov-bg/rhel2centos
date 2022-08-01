@@ -320,7 +320,7 @@ def update_the_system():
     try:
         get_logger().info('Run updating of system')
         subprocess.check_call(
-            'yum update -y',
+            'yum update -y --skip-broken',
             shell=True,
         )
     except subprocess.CalledProcessError:
